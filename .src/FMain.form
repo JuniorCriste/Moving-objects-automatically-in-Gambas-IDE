@@ -1,0 +1,17 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,67,50)
+  { objeto PictureBox
+    MoveScaled(1,1,11,10)
+    AutoResize = True
+    Picture = Picture["icon:/64/computer"]
+  }
+  { acao Button
+    MoveScaled(56,45,10,4)
+    Text = ("START")
+  }
+  { dados TextLabel
+    MoveScaled(2,45,52,4)
+  }
+}

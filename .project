@@ -1,0 +1,13 @@
+# Gambas Project File 3.0
+Title=Moving objects automatically in Gambas IDE
+Startup=FMain
+Version=0.0.1
+Component=gb.image
+Component=gb.gui
+Component=gb.form
+Description="Moving objects automatically in Gambas IDE by Junior Criste\nwww.github/juniorcriste"
+Authors="Junior Criste\nwww.github/juniorcriste\n\nINFORMATICODE\nwww.informaticode.com.br"
+TabSize=2
+Language=en_US
+Vendor=JuniorCriste
+Packager=1

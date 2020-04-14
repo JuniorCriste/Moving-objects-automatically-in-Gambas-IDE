@@ -1,0 +1,32 @@
+' Gambas class file
+
+
+Public Sub Form_Open()
+
+  
+
+End
+
+
+Public Sub movimenta()
+Dim count As Integer
+  
+  objeto.X = 0
+  objeto.Y = 0
+  
+  Repeat
+    objeto.X = objeto.X + 1 ' Horizontal movement
+    objeto.Y = objeto.Y + 1 ' Vertical movement
+    dados.Text = "X = " & CStr(objeto.X) & " | Y = " & CStr(objeto.Y) & " | Count = " & CStr(count) ' Print info in the window
+    count = count + 1 ' Counter
+    Wait 0.1 ' time to next frame
+    
+  Until count = 250
+  
+End
+
+Public Sub acao_Click()
+
+  movimenta
+
+End
